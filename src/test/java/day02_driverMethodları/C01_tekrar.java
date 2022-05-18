@@ -9,5 +9,6 @@ public class C01_tekrar {
         WebDriver driver=new ChromeDriver();
 
         driver.get("https://www.tecproeducation.com");
+        driver.close();
     }
 }
